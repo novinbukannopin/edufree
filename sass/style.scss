@@ -1,0 +1,38 @@
+$secondary: #282938;
+$primary: #1c1e53;
+$danger: #fcd980;
+$light: rgba(255, 255, 255, 0.1);
+
+$input-color: white;
+$input-border-width: 3px;
+$input-border-color: rgba(255, 255, 255, 0.1);
+$input-disabled-bg: rgb(204, 235, 169);
+$input-disabled-border-color: black;
+$input-bg: $primary;
+$input-placeholder-color: rgba(255, 255, 255, 0.1);
+$input-border-radius-sm: 0.7rem;
+$input-border-radius-lg: 0.8rem;
+$input-padding-y: 1rem;
+$input-padding-x: 1rem;
+$input-font-size: 18px;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// @import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+.parent {
+  position: relative;
+}
+
+.content {
+  padding: 70px 100px 100px 100px;
+}
+.text-over {
+  position: absolute;
+  top: 70px;
+  left: 80px;
+}
+
+.form-control {
+  background-color: none;
+  border: 1px solid #1c1e53;
+  color: green;
+}
