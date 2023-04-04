@@ -15,10 +15,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
-    <title>Register</title>
+    <title>Login</title>
   </head>
   <body>
-    <div class="container mt-5">
+    <div class="container mt-5 pb-5 mb-5 min-vh-100">
       <div class="row">
         <h1 class="fs-5 fw-semibold text-secondary">
           <i class="bi bi-arrow-left"></i>
@@ -26,28 +26,16 @@
         </h1>
       </div>
       <div class="row mt-5">
-        <div class="col-6 parent">
-          <img src="/public/images/banner-2.png" width="auto" alt="" />
-          <div class="text-over text-white p-3">
-            <div class="fs-1 fw-semibold w-50">
-              Selangkah Lebih Dekat Dengan Impianmu
-            </div>
-            <div class="fs-5 fw-normal mt-4 w-75">
-              Sebuah layanan E-Learning gratis yang siap membantumu menjadi
-              seorang ahli
-            </div>
-          </div>
-        </div>
         <div class="col-6 bg-primary">
           <div class="mt-4 content">
-            <div class="fs-4 fw-semibold text-white mb-2">Login</div>
-            <div class="fs-6 fw-light w-75 text-white lh-base mb-5">
+            <div class="fs-2 fw-semibold text-white mb-2">Login</div>
+            <div class="fs-5 fw-light w-75 text-white lh-base mb-5">
               Persiapkan diri untuk masa depan yang penuh dengan bintang
             </div>
-            <div class="mt-5">
+            <div class="mt-5 mb-5">
               <input
                 type="text"
-                class="form-control py-3 px-4 mb-4"
+                class="form-custom form-control py-3 px-4 mb-4 form-custom"
                 placeholder="Email"
               />
               <input
@@ -56,7 +44,7 @@
                 placeholder="Password"
               />
             </div>
-            <div class="form-check mt-3">
+            <div class="form-check my-2">
               <input
                 class="form-check-input"
                 type="checkbox"
@@ -69,10 +57,19 @@
             </div>
             <div class="mx-auto d-grid mt-4">
               <button type="button" class="btn btn-danger rounded-0">
-                <div class="fs-6 fw-semibold">MASUK</div>
+                <div class="fs-6 fw-semibold px-5 py-2">
+                  <a href="" class="text-decoration-none">MASUK</a>
+                </div>
               </button>
+              <p class="fs-6 fw-normal text-white mx-auto mt-3">
+                Sudah punya akun?
+                <a href="/public/register.html" class="text-white">Login</a>
+              </p>
             </div>
           </div>
+        </div>
+        <div class="col-6 bg-warning p-2">
+          <img src="/public/images/banner-2.png" class="w-100 h-100" />
         </div>
       </div>
     </div>
