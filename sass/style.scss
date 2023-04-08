@@ -2,7 +2,7 @@ $secondary: #282938;
 $primary: #1c1e53;
 $danger: #fcd980;
 $info: #f4f6fc;
-$light: rgba(255, 255, 255, 0.1);
+$light: #282938;
 
 $input-color: white;
 $input-border-width: 3px;
@@ -15,6 +15,24 @@ $input-border-radius-lg: 0.8rem;
 $input-padding-y: 1rem;
 $input-padding-x: 1rem;
 $input-font-size: 18px;
+
+.item {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.notify-badge {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  background: $primary;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 20px;
+}
 
 .img-hero {
   width: 100%;
