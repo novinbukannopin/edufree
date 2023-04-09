@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.gap-item {
+  gap: 100px;
+}
+
 .item {
   width: 100%;
   position: relative;
